@@ -1,0 +1,537 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="crispEdges">
+<defs> <pattern id="crosshatch" patternUnits="userSpaceOnUse" x="0" y="0" width="5" height="5"><g style="fill:none; stroke:#dde; stroke-width:1"><path d="M0,0 l5,5"/><path d="M5,0 l-5,5"/></g></pattern></defs><style>
+/* <![CDATA[ */
+ .move_text { font-size:11px; font-family:Verdana; fill:#0e004a;  } 
+.frame { fill: url(#crosshatch) #fff; stroke:#004a00; stroke-width:1; stroke-linecap:square; stroke-linejoin:round; }.text_bg { fill:white; opacity:0.4; rx:3; ry:3; }
+/* ]]> */'n</style><g transform="translate(0,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(20,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,40)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,60)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(40,80)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="0.2" transform="translate(20,80)"><title>Piece: "7"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 1: 7L</text></g>
+<g transform="translate(106,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(20,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,40)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,60)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,80)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="0.2" transform="translate(40,80)"><title>Piece: "6"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 2: 6D</text></g>
+<g transform="translate(212,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(20,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,40)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,80)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="0.2" transform="translate(60,60)"><title>Piece: "5"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 3: 5D</text></g>
+<g transform="translate(318,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(20,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,60)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,80)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="0.2" transform="translate(40,40)"><title>Piece: "4"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 4: 4R</text></g>
+<g transform="translate(424,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,60)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,80)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="0.2" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 5: 0R</text></g>
+<g transform="translate(530,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,60)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,80)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="0.2" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 6: 7LU</text></g>
+<g transform="translate(636,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,60)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(40,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="0.2" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 7: 6L2</text></g>
+<g transform="translate(742,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,60)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="0.2" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 8: 5D</text></g>
+<g transform="translate(848,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,40)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="0.2" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 9: 4RD</text></g>
+<g transform="translate(954,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,20)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="0.2" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 10: 3D</text></g>
+<g transform="translate(1060,0)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="0.2" transform="translate(60,20)"><title>Piece: "8"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 11: 8D</text></g>
+<g transform="translate(0,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="0.2" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 12: 1R2</text></g>
+<g transform="translate(106,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,20)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="0.2" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 13: 2U</text></g>
+<g transform="translate(212,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(0,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="0.2" transform="translate(20,20)"><title>Piece: "7"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 14: 7RU2</text></g>
+<g transform="translate(318,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(20,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,20)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="0.2" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 15: 0LU</text></g>
+<g transform="translate(424,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(60,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,20)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="0.2" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 16: 4L3</text></g>
+<g transform="translate(530,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,20)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="0.2" transform="translate(60,60)"><title>Piece: "3"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 17: 3RD</text></g>
+<g transform="translate(636,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(20,20)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="0.2" transform="translate(40,60)"><title>Piece: "7"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 18: 7RD2</text></g>
+<g transform="translate(742,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(40,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="0.2" transform="translate(20,20)"><title>Piece: "8"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 19: 8L2</text></g>
+<g transform="translate(848,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(40,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="0.2" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 20: 3U</text></g>
+<g transform="translate(954,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(40,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="0.2" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 21: 7R2</text></g>
+<g transform="translate(1060,106)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="0.2" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 22: 4R2</text></g>
+<g transform="translate(0,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="0.2" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 23: 0D</text></g>
+<g transform="translate(106,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="0.2" transform="translate(0,20)"><title>Piece: "8"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 24: 8L</text></g>
+<g transform="translate(212,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,0)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="0.2" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 25: 1D</text></g>
+<g transform="translate(318,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="0.2" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 26: 2R3</text></g>
+<g transform="translate(424,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,20)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="0.2" transform="translate(0,0)"><title>Piece: "8"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 27: 8U</text></g>
+<g transform="translate(530,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,40)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="0.2" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 28: 0U</text></g>
+<g transform="translate(636,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(40,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="0.2" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 29: 4L2</text></g>
+<g transform="translate(742,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(60,40)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="0.2" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 30: 3LD</text></g>
+<g transform="translate(848,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,20)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="0.2" transform="translate(40,40)"><title>Piece: "1"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 31: 1D</text></g>
+<g transform="translate(954,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(0,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="0.2" transform="translate(20,0)"><title>Piece: "8"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 32: 8R</text></g>
+<g transform="translate(1060,212)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="0.2" transform="translate(0,0)"><title>Piece: "0"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 33: 0U</text></g>
+<g transform="translate(0,318)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,0)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(40,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="0.2" transform="translate(0,40)"><title>Piece: "1"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 34: 1L2</text></g>
+<g transform="translate(106,318)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,0)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,0)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="0.2" transform="translate(60,40)"><title>Piece: "2"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 35: 2D2</text></g>
+<g transform="translate(212,318)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,0)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,40)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(20,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="0.2" transform="translate(60,0)"><title>Piece: "8"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 36: 8R2</text></g>
+<g transform="translate(318,318)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(0,0)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,40)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path><path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="0.2" transform="translate(40,0)"><title>Piece: "0"</title></path>
+  </g>
+
+  <text dy="1.2em" dx="0.3em" class="move_text"> 37: 0R2</text></g>
+<g transform="translate(424,318)">
+  <rect rx="5" ry="5" x="1" y="1" width="104" height="104" class="frame"></rect>  <g transform="translate(3,3)">
+  <path d="M0 0 20 0 20 20 0 20 z M0 20 20 20 20 40 0 40 z M20 20 40 20 40 40 20 40 z " fill="#8dd3c7" opacity="1" transform="translate(40,0)"><title>Piece: "0"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#ffffb3" opacity="1" transform="translate(0,40)"><title>Piece: "1"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#bebada" opacity="1" transform="translate(60,40)"><title>Piece: "2"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fb8072" opacity="1" transform="translate(40,60)"><title>Piece: "3"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#80b1d3" opacity="1" transform="translate(0,60)"><title>Piece: "4"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z " fill="#fdb462" opacity="1" transform="translate(60,80)"><title>Piece: "5"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M40 0 60 0 60 20 40 20 z " fill="#b3de69" opacity="1" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z " fill="#fccde5" opacity="1" transform="translate(80,60)"><title>Piece: "7"</title></path>
+  <path d="M0 0 20 0 20 20 0 20 z M20 0 40 0 40 20 20 20 z M20 20 40 20 40 40 20 40 z " fill="#d9d9d9" opacity="1" transform="translate(60,0)"><title>Piece: "8"</title></path>
+  </g>
+</g>
+</svg>
