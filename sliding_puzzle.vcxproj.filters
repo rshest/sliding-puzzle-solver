@@ -38,8 +38,5 @@
     <ClInclude Include="src\sliding_puzzle_svg.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\cmd_param.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
