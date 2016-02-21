@@ -124,29 +124,6 @@ public:
         }
         return ss.str();
     }
-    /*
-        std::string svg_path(int r = 0) const {
-        std::stringstream ss;
-        for (auto& chain : chains) {
-            int np = chain.size();
-            if (np < 2) continue;
-            int dx = chain[1].x - chain[0].x;
-            int dy = chain[1].y - chain[0].y;
-            
-
-            for (int i = 0; i <= np; i++) {
-                const point& p1 = chain[i];
-                const point& p2 = chain[(i + 1)%np];
-                const point& p3 = chain[(i + 1)%np];
-            }
-            for (auto& p : chain) {
-                ss << p.x << " " << p.y << " ";
-            }
-            ss << "z ";
-        }
-        return ss.str();
-    }
-    */
 
     void extrude(int dx, int dy) {
         for (auto& chain : chains) {

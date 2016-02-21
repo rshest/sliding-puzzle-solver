@@ -2,710 +2,710 @@
 <defs> <pattern id="crosshatch" patternUnits="userSpaceOnUse" x="0" y="0" width="5" height="5"><g style="fill:none; stroke:#dde; stroke-width:1"><path d="M0,0 l5,5"/><path d="M5,0 l-5,5"/></g></pattern></defs><style>
 /* <![CDATA[ */
  .move_text { font-size:11px; font-family:Arial; fill:#0e004a; font-weight:bold; } 
-.frame { fill: url(#crosshatch) #fff; stroke:#004a00; stroke-width:1; stroke-linecap:square; stroke-linejoin:round; } 
+.frame { fill: url(#crosshatch) #fff; stroke:#004a00; stroke-width:1; rx=0; ry=0; stroke-linecap:square; stroke-linejoin:round; } 
 .text_bg { fill:white; opacity:0.4; rx:3; ry:3; } 
-.piece { stroke:#224a22; stroke-width:1;  } 
-.piece_ghost { stroke:#224a22; stroke-width:2; stroke-dasharray:6,3; opacity:0.7; } 
-.piece_selected { stroke:#224a22; stroke-width:2; } 
+.piece { stroke:#224a22; stroke-width:1; opacity:0.3; } 
+.piece_ghost { stroke:#224a22; stroke-width:1; stroke-dasharray:6,3; opacity:0.5; } 
+.piece_selected { stroke:#224a22; stroke-width:1; } 
 
 /* ]]> */'n</style><g transform="translate(0,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,24)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,72)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path>
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_selected" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_selected" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_selected" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(40,20)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(40,60)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_selected" transform="translate(0,80)"><title>Piece: "9"</title></path>
   </g>
 </g>
-<g transform="translate(103.2,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,72)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_selected" transform="translate(0,48)"><title>Piece: "5"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_ghost" transform="translate(48,24)"><title>Piece: "5"</title></path>
+<g transform="translate(86,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,60)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(0,40)"><title>Piece: "5"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_ghost" transform="translate(40,20)"><title>Piece: "5"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 1: 5L2D2</text></g>
-<g transform="translate(206.4,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_selected" transform="translate(48,36)"><title>Piece: "7"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_ghost" transform="translate(48,72)"><title>Piece: "7"</title></path>
+<g transform="translate(172,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(40,30)"><title>Piece: "7"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_ghost" transform="translate(40,60)"><title>Piece: "7"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 2: 7U3</text></g>
-<g transform="translate(309.6,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_selected" transform="translate(24,48)"><title>Piece: "5"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_ghost" transform="translate(0,48)"><title>Piece: "5"</title></path>
+<g transform="translate(258,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(20,40)"><title>Piece: "5"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_ghost" transform="translate(0,40)"><title>Piece: "5"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 3: 5R</text></g>
-<g transform="translate(412.8,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_selected" transform="translate(24,72)"><title>Piece: "6"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_ghost" transform="translate(0,72)"><title>Piece: "6"</title></path>
+<g transform="translate(344,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(20,60)"><title>Piece: "6"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_ghost" transform="translate(0,60)"><title>Piece: "6"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 4: 6R</text></g>
-<g transform="translate(516,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(24,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,48)"><title>Piece: "8"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,84)"><title>Piece: "8"</title></path>
+<g transform="translate(430,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(20,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,40)"><title>Piece: "8"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,70)"><title>Piece: "8"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 5: 8U3</text></g>
-<g transform="translate(619.2,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,96)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_selected" transform="translate(0,72)"><title>Piece: "6"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_ghost" transform="translate(24,72)"><title>Piece: "6"</title></path>
+<g transform="translate(516,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,80)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(0,60)"><title>Piece: "6"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_ghost" transform="translate(20,60)"><title>Piece: "6"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 6: 6L</text></g>
-<g transform="translate(722.4,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(48,72)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(48,96)"><title>Piece: "0"</title></path>
+<g transform="translate(602,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(40,60)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(40,80)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 7: 0U2</text></g>
-<g transform="translate(825.6,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path><path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece_selected" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece_ghost" transform="translate(0,96)"><title>Piece: "9"</title></path>
+<g transform="translate(688,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path><path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_selected" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_ghost" transform="translate(0,80)"><title>Piece: "9"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 8: 9R2</text></g>
-<g transform="translate(928.8,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_selected" transform="translate(0,96)"><title>Piece: "6"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_ghost" transform="translate(0,72)"><title>Piece: "6"</title></path>
+<g transform="translate(774,0)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(0,80)"><title>Piece: "6"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_ghost" transform="translate(0,60)"><title>Piece: "6"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 9: 6D2</text></g>
-<g transform="translate(1032,0)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(24,48)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,72)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(48,72)"><title>Piece: "0"</title></path>
+<g transform="translate(0,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(20,40)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,60)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(40,60)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 10: 0L2</text></g>
-<g transform="translate(0,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_selected" transform="translate(48,72)"><title>Piece: "5"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_ghost" transform="translate(24,48)"><title>Piece: "5"</title></path>
+<g transform="translate(86,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(40,60)"><title>Piece: "5"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_ghost" transform="translate(20,40)"><title>Piece: "5"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 11: 5RD2</text></g>
-<g transform="translate(103.2,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_selected" transform="translate(24,72)"><title>Piece: "8"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,48)"><title>Piece: "8"</title></path>
+<g transform="translate(172,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,0)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(20,60)"><title>Piece: "8"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,40)"><title>Piece: "8"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 12: 8RD2</text></g>
-<g transform="translate(206.4,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_selected" transform="translate(0,24)"><title>Piece: "1"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_ghost" transform="translate(0,0)"><title>Piece: "1"</title></path>
+<g transform="translate(258,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(0,20)"><title>Piece: "1"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_ghost" transform="translate(0,0)"><title>Piece: "1"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 13: 1D2</text></g>
-<g transform="translate(309.6,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(48,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_selected" transform="translate(0,0)"><title>Piece: "2"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_ghost" transform="translate(24,0)"><title>Piece: "2"</title></path>
+<g transform="translate(344,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(40,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_selected" transform="translate(0,0)"><title>Piece: "2"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_ghost" transform="translate(20,0)"><title>Piece: "2"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 14: 2L</text></g>
-<g transform="translate(412.8,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece_selected" transform="translate(24,0)"><title>Piece: "3"</title></path><path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece_ghost" transform="translate(48,0)"><title>Piece: "3"</title></path>
+<g transform="translate(430,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_selected" transform="translate(20,0)"><title>Piece: "3"</title></path><path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_ghost" transform="translate(40,0)"><title>Piece: "3"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 15: 3L</text></g>
-<g transform="translate(516,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece_selected" transform="translate(72,0)"><title>Piece: "4"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece_ghost" transform="translate(72,12)"><title>Piece: "4"</title></path>
+<g transform="translate(516,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_selected" transform="translate(60,0)"><title>Piece: "4"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_ghost" transform="translate(60,10)"><title>Piece: "4"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 16: 4U</text></g>
-<g transform="translate(619.2,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(0,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_selected" transform="translate(48,24)"><title>Piece: "7"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_ghost" transform="translate(48,36)"><title>Piece: "7"</title></path>
+<g transform="translate(602,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(0,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(40,20)"><title>Piece: "7"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_ghost" transform="translate(40,30)"><title>Piece: "7"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 17: 7U</text></g>
-<g transform="translate(722.4,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,72)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_selected" transform="translate(24,24)"><title>Piece: "1"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_ghost" transform="translate(0,24)"><title>Piece: "1"</title></path>
+<g transform="translate(688,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(20,20)"><title>Piece: "1"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_ghost" transform="translate(0,20)"><title>Piece: "1"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 18: 1R</text></g>
-<g transform="translate(825.6,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(24,72)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,24)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,72)"><title>Piece: "0"</title></path>
+<g transform="translate(774,121)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(20,60)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,20)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,60)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 19: 0U4</text></g>
-<g transform="translate(928.8,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,96)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,48)"><title>Piece: "8"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_ghost" transform="translate(24,72)"><title>Piece: "8"</title></path>
+<g transform="translate(0,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,80)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,40)"><title>Piece: "8"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_ghost" transform="translate(20,60)"><title>Piece: "8"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 20: 8LU2</text></g>
-<g transform="translate(1032,142.2)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(48,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_selected" transform="translate(0,72)"><title>Piece: "6"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_ghost" transform="translate(0,96)"><title>Piece: "6"</title></path>
+<g transform="translate(86,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(40,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(0,60)"><title>Piece: "6"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_ghost" transform="translate(0,80)"><title>Piece: "6"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 21: 6U2</text></g>
-<g transform="translate(0,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,72)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path><path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece_selected" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece_ghost" transform="translate(48,96)"><title>Piece: "9"</title></path>
+<g transform="translate(172,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,60)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path><path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_selected" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_ghost" transform="translate(40,80)"><title>Piece: "9"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 22: 9L2</text></g>
-<g transform="translate(103.2,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,72)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_selected" transform="translate(48,96)"><title>Piece: "5"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_ghost" transform="translate(48,72)"><title>Piece: "5"</title></path>
+<g transform="translate(258,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,60)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(40,80)"><title>Piece: "5"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_ghost" transform="translate(40,60)"><title>Piece: "5"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 23: 5D2</text></g>
-<g transform="translate(206.4,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_selected" transform="translate(48,84)"><title>Piece: "6"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_ghost" transform="translate(0,72)"><title>Piece: "6"</title></path>
+<g transform="translate(344,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(40,70)"><title>Piece: "6"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_ghost" transform="translate(0,60)"><title>Piece: "6"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 24: 6R2D</text></g>
-<g transform="translate(309.6,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,84)"><title>Piece: "8"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,48)"><title>Piece: "8"</title></path>
+<g transform="translate(430,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,70)"><title>Piece: "8"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,40)"><title>Piece: "8"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 25: 8D3</text></g>
-<g transform="translate(412.8,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,60)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,24)"><title>Piece: "0"</title></path>
+<g transform="translate(516,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,0)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,50)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,20)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 26: 0D3</text></g>
-<g transform="translate(516,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,24)"><title>Piece: "1"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_selected" transform="translate(0,36)"><title>Piece: "2"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_ghost" transform="translate(0,0)"><title>Piece: "2"</title></path>
+<g transform="translate(602,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,20)"><title>Piece: "1"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_selected" transform="translate(0,30)"><title>Piece: "2"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_ghost" transform="translate(0,0)"><title>Piece: "2"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 27: 2D3</text></g>
-<g transform="translate(619.2,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(24,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_selected" transform="translate(24,36)"><title>Piece: "1"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_ghost" transform="translate(24,24)"><title>Piece: "1"</title></path>
+<g transform="translate(688,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(20,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(20,30)"><title>Piece: "1"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_ghost" transform="translate(20,20)"><title>Piece: "1"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 28: 1D</text></g>
-<g transform="translate(722.4,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,24)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece_selected" transform="translate(0,0)"><title>Piece: "3"</title></path><path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece_ghost" transform="translate(24,0)"><title>Piece: "3"</title></path>
+<g transform="translate(774,242)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,20)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_selected" transform="translate(0,0)"><title>Piece: "3"</title></path><path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_ghost" transform="translate(20,0)"><title>Piece: "3"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 29: 3L</text></g>
-<g transform="translate(825.6,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,0)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_selected" transform="translate(48,36)"><title>Piece: "7"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_ghost" transform="translate(48,24)"><title>Piece: "7"</title></path>
+<g transform="translate(0,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,0)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(40,30)"><title>Piece: "7"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_ghost" transform="translate(40,20)"><title>Piece: "7"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 30: 7D</text></g>
-<g transform="translate(928.8,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,36)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece_selected" transform="translate(24,12)"><title>Piece: "4"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece_ghost" transform="translate(72,0)"><title>Piece: "4"</title></path>
+<g transform="translate(86,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,30)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_selected" transform="translate(20,10)"><title>Piece: "4"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_ghost" transform="translate(60,0)"><title>Piece: "4"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 31: 4L2D</text></g>
-<g transform="translate(1032,284.4)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(24,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_selected" transform="translate(48,0)"><title>Piece: "7"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_ghost" transform="translate(48,36)"><title>Piece: "7"</title></path>
+<g transform="translate(172,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(20,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(40,0)"><title>Piece: "7"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_ghost" transform="translate(40,30)"><title>Piece: "7"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 32: 7U3</text></g>
-<g transform="translate(0,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(0,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_selected" transform="translate(48,36)"><title>Piece: "1"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_ghost" transform="translate(24,36)"><title>Piece: "1"</title></path>
+<g transform="translate(258,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(0,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(40,30)"><title>Piece: "1"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_ghost" transform="translate(20,30)"><title>Piece: "1"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 33: 1R</text></g>
-<g transform="translate(103.2,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,60)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_selected" transform="translate(24,36)"><title>Piece: "2"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_ghost" transform="translate(0,36)"><title>Piece: "2"</title></path>
+<g transform="translate(344,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,50)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_selected" transform="translate(20,30)"><title>Piece: "2"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_ghost" transform="translate(0,30)"><title>Piece: "2"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 34: 2R</text></g>
-<g transform="translate(206.4,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,84)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,24)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,60)"><title>Piece: "0"</title></path>
+<g transform="translate(430,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,70)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,20)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,50)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 35: 0U3</text></g>
-<g transform="translate(309.6,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,96)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,48)"><title>Piece: "8"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,84)"><title>Piece: "8"</title></path>
+<g transform="translate(516,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,80)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(0,40)"><title>Piece: "8"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,70)"><title>Piece: "8"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 36: 8U3</text></g>
-<g transform="translate(412.8,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(48,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path><path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece_selected" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece_ghost" transform="translate(0,96)"><title>Piece: "9"</title></path>
+<g transform="translate(602,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(40,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path><path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_selected" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_ghost" transform="translate(0,80)"><title>Piece: "9"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 37: 9U3</text></g>
-<g transform="translate(516,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(48,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_selected" transform="translate(0,96)"><title>Piece: "5"</title></path><path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece_ghost" transform="translate(48,96)"><title>Piece: "5"</title></path>
+<g transform="translate(688,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(40,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(0,80)"><title>Piece: "5"</title></path><path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_ghost" transform="translate(40,80)"><title>Piece: "5"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 38: 5L2</text></g>
-<g transform="translate(619.2,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,36)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_selected" transform="translate(0,84)"><title>Piece: "6"</title></path><path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece_ghost" transform="translate(48,84)"><title>Piece: "6"</title></path>
+<g transform="translate(774,363)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,30)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(0,70)"><title>Piece: "6"</title></path><path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_ghost" transform="translate(40,70)"><title>Piece: "6"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 39: 6L2</text></g>
-<g transform="translate(722.4,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(24,36)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_selected" transform="translate(48,72)"><title>Piece: "1"</title></path><path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece_ghost" transform="translate(48,36)"><title>Piece: "1"</title></path>
+<g transform="translate(0,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(20,30)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(40,60)"><title>Piece: "1"</title></path><path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_ghost" transform="translate(40,30)"><title>Piece: "1"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 40: 1D3</text></g>
-<g transform="translate(825.6,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(24,12)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_selected" transform="translate(72,72)"><title>Piece: "2"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece_ghost" transform="translate(24,36)"><title>Piece: "2"</title></path>
+<g transform="translate(86,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(20,10)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_selected" transform="translate(60,60)"><title>Piece: "2"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_ghost" transform="translate(20,30)"><title>Piece: "2"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 41: 2R2D3</text></g>
-<g transform="translate(928.8,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece_selected" transform="translate(72,48)"><title>Piece: "4"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece_ghost" transform="translate(24,12)"><title>Piece: "4"</title></path>
+<g transform="translate(172,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_selected" transform="translate(60,40)"><title>Piece: "4"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_ghost" transform="translate(20,10)"><title>Piece: "4"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 42: 4R2D3</text></g>
-<g transform="translate(1032,426.6)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(0,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(24,12)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,24)"><title>Piece: "0"</title></path>
+<g transform="translate(258,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(0,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(20,10)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(0,20)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 43: 0RU</text></g>
-<g transform="translate(0,568.8)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(24,12)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_selected" transform="translate(48,48)"><title>Piece: "8"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,48)"><title>Piece: "8"</title></path>
+<g transform="translate(344,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(20,10)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(40,40)"><title>Piece: "8"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_ghost" transform="translate(0,40)"><title>Piece: "8"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 44: 8R2</text></g>
-<g transform="translate(103.2,568.8)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(48,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(48,24)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(24,12)"><title>Piece: "0"</title></path>
+<g transform="translate(430,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,0)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(40,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(40,20)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(20,10)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 45: 0RD</text></g>
-<g transform="translate(206.4,568.8)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(48,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(48,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece_selected" transform="translate(0,48)"><title>Piece: "3"</title></path><path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece_ghost" transform="translate(0,0)"><title>Piece: "3"</title></path>
+<g transform="translate(516,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(40,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(40,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_selected" transform="translate(0,40)"><title>Piece: "3"</title></path><path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_ghost" transform="translate(0,0)"><title>Piece: "3"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 46: 3D4</text></g>
-<g transform="translate(309.6,568.8)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,48)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(48,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(48,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,24)"><title>Piece: "0"</title></path><path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece_ghost" transform="translate(48,24)"><title>Piece: "0"</title></path>
+<g transform="translate(602,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,40)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece" transform="translate(40,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(40,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,20)"><title>Piece: "0"</title></path><path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_ghost" transform="translate(40,20)"><title>Piece: "0"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 47: 0L2</text></g>
-<g transform="translate(412.8,568.8)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,48)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(48,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_selected" transform="translate(0,0)"><title>Piece: "7"</title></path><path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece_ghost" transform="translate(48,0)"><title>Piece: "7"</title></path>
+<g transform="translate(688,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece" transform="translate(0,40)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece" transform="translate(40,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece" transform="translate(0,50)"><title>Piece: "9"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(0,0)"><title>Piece: "7"</title></path><path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_ghost" transform="translate(40,0)"><title>Piece: "7"</title></path>
   </g>
 
   <text dy="1.2em" dx="0.3em" class="move_text"> 48: 7L2</text></g>
-<g transform="translate(516,568.8)">
-  <rect rx="5" ry="5" x="2.4" y="17.4" width="98.4" height="122.4" class="frame"></rect>  <g transform="translate(3.6,18.6)">
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#8dd3c7" class="piece" transform="translate(0,24)"><title>Piece: "0"</title></path>
-  <path d="M1 1 23 1 23 25 47 25 47 47 1 47 z " fill="#ffffb3" class="piece" transform="translate(48,72)"><title>Piece: "1"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#bebada" class="piece" transform="translate(72,72)"><title>Piece: "2"</title></path>
-  <path d="M1 1 47 1 47 11 23 11 23 23 1 23 z " fill="#fb8072" class="piece" transform="translate(0,48)"><title>Piece: "3"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#80b1d3" class="piece" transform="translate(72,48)"><title>Piece: "4"</title></path>
-  <path d="M1 1 23 1 23 13 47 13 47 23 1 23 z " fill="#fdb462" class="piece" transform="translate(0,96)"><title>Piece: "5"</title></path>
-  <path d="M1 1 47 1 47 23 25 23 25 11 1 11 z " fill="#b3de69" class="piece" transform="translate(0,84)"><title>Piece: "6"</title></path>
-  <path d="M1 1 47 1 47 47 25 47 25 23 1 23 z " fill="#fccde5" class="piece" transform="translate(0,0)"><title>Piece: "7"</title></path>
-  <path d="M1 1 23 1 23 23 1 23 z " fill="#d9d9d9" class="piece" transform="translate(48,48)"><title>Piece: "8"</title></path>
-  <path d="M1 13 25 13 25 1 47 1 47 23 1 23 z " fill="#bc80bd" class="piece" transform="translate(0,60)"><title>Piece: "9"</title></path>
+<g transform="translate(774,484)">
+  <rect x="2" y="17" width="82" height="102" class="frame"></rect>  <g transform="translate(3,18)">
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#8dd3c7" class="piece_selected" transform="translate(0,20)"><title>Piece: "0"</title></path>
+  <path d="M1 1 19 1 19 21 39 21 39 39 1 39 z " fill="#ffffb3" class="piece_selected" transform="translate(40,60)"><title>Piece: "1"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#bebada" class="piece_selected" transform="translate(60,60)"><title>Piece: "2"</title></path>
+  <path d="M1 1 39 1 39 9 19 9 19 19 1 19 z " fill="#fb8072" class="piece_selected" transform="translate(0,40)"><title>Piece: "3"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#80b1d3" class="piece_selected" transform="translate(60,40)"><title>Piece: "4"</title></path>
+  <path d="M1 1 19 1 19 11 39 11 39 19 1 19 z " fill="#fdb462" class="piece_selected" transform="translate(0,80)"><title>Piece: "5"</title></path>
+  <path d="M1 1 39 1 39 19 21 19 21 9 1 9 z " fill="#b3de69" class="piece_selected" transform="translate(0,70)"><title>Piece: "6"</title></path>
+  <path d="M1 1 39 1 39 39 21 39 21 19 1 19 z " fill="#fccde5" class="piece_selected" transform="translate(0,0)"><title>Piece: "7"</title></path>
+  <path d="M1 1 19 1 19 19 1 19 z " fill="#d9d9d9" class="piece_selected" transform="translate(40,40)"><title>Piece: "8"</title></path>
+  <path d="M1 11 21 11 21 1 39 1 39 19 1 19 z " fill="#bc80bd" class="piece_selected" transform="translate(0,50)"><title>Piece: "9"</title></path>
   </g>
 </g>
 </svg>

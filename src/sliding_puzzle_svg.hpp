@@ -88,7 +88,7 @@ public:
             if (pshow_move && pshow_move->piece_id == i) continue;
             os << "\n  ";
             const sliding_puzzle::piece& piece = sp._pieces[i];
-            gen_piece(os, piece, pos.offsets[i], i);
+            gen_piece(os, piece, pos.offsets[i], i, pshow_move ? "piece" : "piece_selected");
         }
         if (pshow_move) {
             //  the ghost move piece
@@ -112,12 +112,12 @@ public:
         
         os << "<style>\n/* <![CDATA[ */\n " <<
             ".move_text { font-size:11px; font-family:Arial; fill:#0e004a; font-weight:bold; } \n"
-            ".frame { fill: url(#crosshatch) #fff; stroke:#004a00; stroke-width:1;"
-                " stroke-linecap:square; stroke-linejoin:round; } \n" <<
+            ".frame { fill: url(#crosshatch) #fff; stroke:#004a00; stroke-width:1; rx=0; ry=0;"
+            " stroke-linecap:square; stroke-linejoin:round; } \n" <<
             ".text_bg { fill:white; opacity:0.4; rx:3; ry:3; } \n" <<
-            ".piece { stroke:#224a22; stroke-width:1;  } \n" <<
-            ".piece_ghost { stroke:#224a22; stroke-width:2; stroke-dasharray:6,3; opacity:0.7; } \n" <<
-            ".piece_selected { stroke:#224a22; stroke-width:2; } \n" <<
+            ".piece { stroke:#224a22; stroke-width:1; opacity:0.3; } \n" <<
+            ".piece_ghost { stroke:#224a22; stroke-width:1; stroke-dasharray:6,3; opacity:0.5; } \n" <<
+            ".piece_selected { stroke:#224a22; stroke-width:1; } \n" <<
             "\n/* ]]> */'n</style>";
 
         int CELL_SIDE = 10;
@@ -133,7 +133,7 @@ public:
         int cur_move = -2;
         while (true) {
             os << "<g transform=\"translate(" << board_w*col << "," << board_h*row << ")\">\n";
-            os << "  <rect rx=\"5\" ry=\"5\" x=\"" << border_m << "\" y=\"" << (border_m + caption_height) << "\" " <<
+            os << "  <rect x=\"" << border_m << "\" y=\"" << (border_m + caption_height) << "\" " <<
                 "width=\"" << (board_w - border_m * 2) << "\" height=\"" << (board_h - border_m*2 - caption_height) << "\" " <<
                 "class=\"frame\"></rect>";
 
@@ -153,7 +153,7 @@ public:
             }
             os << "</g>\n";
             col++;
-            if (col > columns) {
+            if (col >= columns) {
                 col = 0;
                 row++;
             }

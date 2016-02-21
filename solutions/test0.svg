@@ -6,7 +6,7 @@
 .text_bg { fill:white; opacity:0.4; rx:3; ry:3; } 
 .piece { stroke:#224a22; stroke-width:1;  } 
 .piece_ghost { stroke:#224a22; stroke-width:2; stroke-dasharray:6,3; opacity:0.7; } 
-.piece_selected { stroke:#224a22; stroke-width:2; } 
+.piece_selected { stroke:#224a22; stroke-width:1.5; } 
 
 /* ]]> */'n</style><g transform="translate(0,0)">
   <rect rx="5" ry="5" x="4" y="19" width="164" height="204" class="frame"></rect>  <g transform="translate(6,21)">
