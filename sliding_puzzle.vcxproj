@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\astar.hpp" />
+    <ClInclude Include="src\rect_contour.hpp" />
     <ClInclude Include="src\gridmap.hpp" />
     <ClInclude Include="src\npuzzle.hpp" />
     <ClInclude Include="src\pool_alloc.hpp" />
@@ -89,13 +90,13 @@
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VCInstallDir)UnitTest\include;$(ProjectDir)/src;$(IncludePath)</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(VCInstallDir)UnitTest\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\build\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>  
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VCInstallDir)UnitTest\include;$(ProjectDir)/src;$(IncludePath)</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(VCInstallDir)UnitTest\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\build\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>  
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VCInstallDir)UnitTest\include;$(ProjectDir)/src;$(IncludePath)</IncludePath>

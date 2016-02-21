@@ -5,6 +5,7 @@
 #include <map>
 
 #include "sliding_puzzle.hpp"
+#include "rect_contour.hpp"
 
 
 const std::map<std::string, std::vector<const char*>>
@@ -40,37 +41,32 @@ public:
     float           caption_height;
     std::string     colormap;
     bool            show_turn_numbers;
+    int             piece_extrude;
 
     sliding_puzzle_svg() : 
         cell_width(20.0f), cell_height(20.0f),
-        border_width(0.1f), border_margin(0.05f),
+        border_width(0.05f), border_margin(0.1f),
         columns(5), colormap("c12"), 
-        show_turn_numbers(true), caption_height(15.0f) {}
+        show_turn_numbers(true), caption_height(15.0f), 
+        piece_extrude(1) {}
 
     void gen_piece_path(std::ostream& os, const sliding_puzzle::piece& piece) const {
-        std::string res;
+        std::vector<bool> bitmap(piece.width*piece.height);
         for (int j = 0; j < piece.height; j++) {
             for (int i = 0; i < piece.width; i++) {
                 int cx = i + piece.offs.dx;
                 int cy = j + piece.offs.dy;
-                if (piece.is_set(cy, cx)) {
-                    float x1 = i*cell_width;
-                    float x2 = (i + 1)*cell_width;
-                    float y1 = j*cell_height;
-                    float y2 = (j + 1)*cell_height;
-
-                    os << "M";
-                    os << x1 << " " << y1 << " ";
-                    os << x2 << " " << y1 << " ";
-                    os << x2 << " " << y2 << " ";
-                    os << x1 << " " << y2 << " z ";
-                }
+                bitmap[i + j*piece.width] = piece.is_set(cy, cx);
             }
         }
+        rect_contour contour;
+        contour.trace_bitmap(bitmap, piece.width, {(int)cell_width, (int)cell_height});
+        contour.extrude(piece_extrude, piece_extrude);
+        os << contour.svg_path(5);
     }
 
     void gen_piece(std::ostream& os, const sliding_puzzle::piece& piece, 
-        const offset& offset, int id, float opacity = 1.0f) {
+        const offset& offset, int id, const char* css_class = "piece") {
         os << "<path d=\""; 
         gen_piece_path(os, piece);
         auto cmit = COLORMAPS.find(colormap);
@@ -80,7 +76,7 @@ public:
         float dx = offset.dx*cell_width;
         float dy = offset.dy*cell_height;
         os << "\" " <<
-            "fill=\"#" << color << "\" opacity=\"" << opacity << "\" " << 
+            "fill=\"#" << color << "\" class=\"" << css_class << "\" " << 
             "transform=\"translate(" << dx << "," << dy << ")\"" << ">" << 
             "<title>" << "Piece: \"" << id << "\"</title>" << "</path>";
     }
@@ -89,6 +85,7 @@ public:
         const sliding_puzzle::position& pos, const sliding_puzzle::move* pshow_move = NULL) {
         const int npieces = sp._pieces.size();
         for (int i = 0; i < npieces; i++) {
+            if (pshow_move && pshow_move->piece_id == i) continue;
             os << "\n  ";
             const sliding_puzzle::piece& piece = sp._pieces[i];
             gen_piece(os, piece, pos.offsets[i], i);
@@ -99,7 +96,8 @@ public:
             offset offs = pos.offsets[piece_id];
             offs.dx += pshow_move->dx;
             offs.dy += pshow_move->dy;
-            gen_piece(os, sp._pieces[piece_id], offs, piece_id, 0.2f);
+            gen_piece(os, sp._pieces[piece_id], offs, piece_id, "piece_selected");
+            gen_piece(os, sp._pieces[piece_id], pos.offsets[piece_id], piece_id, "piece_ghost");
         }
     }
 
@@ -115,8 +113,11 @@ public:
         os << "<style>\n/* <![CDATA[ */\n " <<
             ".move_text { font-size:11px; font-family:Arial; fill:#0e004a; font-weight:bold; } \n"
             ".frame { fill: url(#crosshatch) #fff; stroke:#004a00; stroke-width:1;"
-                " stroke-linecap:square; stroke-linejoin:round; }" <<
-            ".text_bg { fill:white; opacity:0.4; rx:3; ry:3; }" <<
+                " stroke-linecap:square; stroke-linejoin:round; } \n" <<
+            ".text_bg { fill:white; opacity:0.4; rx:3; ry:3; } \n" <<
+            ".piece { stroke:#224a22; stroke-width:1;  } \n" <<
+            ".piece_ghost { stroke:#224a22; stroke-width:2; stroke-dasharray:6,3; opacity:0.7; } \n" <<
+            ".piece_selected { stroke:#224a22; stroke-width:2; } \n" <<
             "\n/* ]]> */'n</style>";
 
         int CELL_SIDE = 10;
@@ -129,7 +130,7 @@ public:
         float board_h = sp._rows*cell_height + (border_w + border_m)*2 + caption_height;
         
         int row = 0, col = 0;
-        int cur_move = -1;
+        int cur_move = -2;
         while (true) {
             os << "<g transform=\"translate(" << board_w*col << "," << board_h*row << ")\">\n";
             os << "  <rect rx=\"5\" ry=\"5\" x=\"" << border_m << "\" y=\"" << (border_m + caption_height) << "\" " <<
@@ -138,10 +139,11 @@ public:
 
             os << "  <g transform=\"translate(" << (border_w + border_m) << "," << 
                 (border_w + border_m + caption_height) << ")\">";
-            gen_board(os, sp, pos, (cur_move < nmoves - 1) ? &solution[cur_move + 1] : nullptr);
+            bool draw_move = cur_move < nmoves - 1 && cur_move >= -1;
+            gen_board(os, sp, pos, draw_move ? &solution[cur_move + 1] : nullptr);
             os << "\n  </g>\n";
             
-            if (cur_move < nmoves - 1) {
+            if (draw_move) {
                 std::stringstream ss;
                 if (show_turn_numbers) {
                     ss << (cur_move + 2) << ": ";
@@ -157,7 +159,7 @@ public:
             }
             cur_move++;
             if (cur_move >= nmoves) break;
-            sp.apply_move(pos, solution[cur_move], pos);
+            if (cur_move >= 0) sp.apply_move(pos, solution[cur_move], pos);
         }
         os << "</svg>";
     }

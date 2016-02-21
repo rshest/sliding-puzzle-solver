@@ -5,12 +5,12 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>puzzles/test0.txt --svg=solutions/test0.svg --cw=20 --ch=10 --columns=8 --colormap=d3b</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>puzzles/test0.txt --svg=solutions/test0.svg --cw=40 --ch=20 --columns=8 --colormap=c12</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LocalDebuggerCommandArguments>puzzles/escott.txt --svg=solutions/escott.svg --cw=20 --ch=10 --columns=10 --colormap=c12</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>puzzles/escott.txt --svg=solutions/escott.svg --cw=24 --ch=12 --columns=10 --colormap=c12</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)</LocalDebuggerWorkingDirectory>
   </PropertyGroup>

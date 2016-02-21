@@ -8,8 +8,27 @@
 #include <gridmap.hpp>
 #include <npuzzle.hpp>
 #include <sliding_puzzle.hpp>
+#include <rect_contour.hpp>
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace Microsoft {
+    namespace VisualStudio {
+        namespace CppUnitTestFramework {
+            template<> static std::wstring ToString<rect_contour::chain_vec>(const rect_contour::chain_vec& cnt) {
+                std::wstringstream ws;
+                for (auto c : cnt) {
+                    ws << "[";
+                    for (auto p : c) {
+                        ws << "[" << p.x << " " << p.y << "]";
+                    }
+                    ws << "]";
+                }
+                return ws.str();
+            }
+        }
+    }
+}
 
 namespace test
 {
@@ -27,7 +46,7 @@ std::string compare(const moves_vec& expected, const moves_vec& real) {
         auto& rm = real[i];
 
         if (em.dx != rm.dx || em.dy != rm.dy) {
-            ss << "Moves differ at " << i << ", expected [" << em.dx << ", " << em.dy << "], got [" <<
+            ss << "Difference at " << i << ", expected [" << em.dx << ", " << em.dy << "], got [" <<
                 rm.dx << ", " << rm.dy << "]";
             return ss.str();
         }
@@ -345,5 +364,147 @@ public:
 };
 
 int test_pool_alloc::elem::s_elems = 0;
+
+TEST_CLASS(test_trace_bitmap)
+{
+public:
+
+    TEST_METHOD(trace_null) {
+        std::vector<bool> bm;
+
+        rect_contour c;
+        c.trace_bitmap(bm, 0);
+        rect_contour::chain_vec res = {};
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_empty) {
+        std::vector<bool> bm{0};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 1);
+        rect_contour::chain_vec res = {};
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_one) {
+        std::vector<bool> bm{1};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 1);
+        rect_contour::chain_vec res = {{{0,0}, {1,0}, {1,1}, {0,1}}};
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_simple)
+    {
+        std::vector<bool> bm = {
+            0,0,1,0,
+            0,0,1,0,
+            0,0,1,0};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4);
+        rect_contour::chain_vec res = {{{2,0}, {3,0}, {3,3}, {2,3}}};
+
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_disjoint)
+    {
+        std::vector<bool> bm = {
+            0,0,1,0,
+            1,0,1,0,
+            1,0,1,0};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4);
+        rect_contour::chain_vec res = {
+            {{0,1}, {1,1}, {1,3}, {0,3}},
+            {{2,0}, {3,0}, {3,3}, {2,3}}};
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_convex)
+    {
+        std::vector<bool> bm = {
+            0,1,1,1,
+            0,1,1,1,
+            0,0,0,0};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4);
+        rect_contour::chain_vec res = {{{1,0}, {4,0}, {4,2}, {1,2}}};
+
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_hole)
+    {
+        std::vector<bool> bm = {
+            1,1,1,1,
+            1,0,0,1,
+            1,1,0,1,
+            0,1,1,1};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4);
+        rect_contour::chain_vec res = {
+            {{0,0}, {4,0}, {4,4}, {1,4}, {1,3}, {0,3}},
+            {{1,1}, {1,2}, {2,2}, {2,3}, {3,3}, {3,1}}};
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_concave)
+    {
+        std::vector<bool> bm = {
+            0,0,1,0,
+            1,1,1,1,
+            1,0,1,1};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4);
+        rect_contour::chain_vec res = {{
+            {0,1}, {2,1}, {2,0}, {3,0}, {3,1}, {4,1}, 
+            {4,3}, {2,3}, {2,2}, {1,2}, {1,3}, {0,3}}};
+
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_diagonal)
+    {
+        std::vector<bool> bm = {
+            1,0,1,0,
+            0,1,0,1,
+            1,0,0,1};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4);
+        rect_contour::chain_vec res = {{
+            {0,0}, {1,0}, {1,1}, {2,1}, {2,0}, {3,0}, {3,1}, {4,1},
+            {4,3}, {3,3}, {3,1}, {2,1}, {2,2}, {1,2}, {1,3}, {0,3}, {0,2}, {1,2}, {1,1}, {0,1}}};
+
+        Assert::AreEqual(res, c.chains);
+    }
+
+    TEST_METHOD(trace_diagonal_sep)
+    {
+        std::vector<bool> bm = {
+            1,0,1,0,
+            0,1,0,1,
+            1,0,0,1};
+
+        rect_contour c;
+        c.trace_bitmap(bm, 4, {1, 1}, false);
+        rect_contour::chain_vec res = {
+            {{0,0}, {1,0}, {1,1}, {0,1}},
+            {{0,2}, {1,2}, {1,3}, {0,3}},
+            {{1,1}, {2,1}, {2,2}, {1,2}},
+            {{2,0}, {3,0}, {3,1}, {2,1}},
+            {{3,1}, {4,1}, {4,3}, {3,3}}};
+
+        Assert::AreEqual(res, c.chains);
+    }
+};
 
 }

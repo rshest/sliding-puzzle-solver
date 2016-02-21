@@ -46,9 +46,9 @@ public:
             height = std::max(height, (int8_t)(row - offs.dy + 1));
         }
 
-		bool is_set(int8_t row, int8_t col) const {
-			return ((1 << col) & mask_rows[row]) != 0;
-		}
+        bool is_set(int8_t row, int8_t col) const {
+            return ((1 << col) & mask_rows[row]) != 0;
+        }
 
         bool empty() const { return width == 0 || height == 0; }
 
@@ -233,25 +233,25 @@ public:
         
     }
 
-	static std::string move_str(const sliding_puzzle::move& move) {
-		std::stringstream ss;
-		ss << (int)move.piece_id;
-		if (move.dx != 0) {
-			ss << "LR"[move.dx > 0];
-			if (abs(move.dx) > 1) ss << abs(move.dx);
-		}
-		if (move.dy != 0) {
-			ss << "UD"[move.dy > 0];
-			if (abs(move.dy) > 1) ss << abs(move.dy);
-		}
-		return ss.str();
-	}
+    static std::string move_str(const sliding_puzzle::move& move) {
+        std::stringstream ss;
+        ss << (int)move.piece_id;
+        if (move.dx != 0) {
+            ss << "LR"[move.dx > 0];
+            if (abs(move.dx) > 1) ss << abs(move.dx);
+        }
+        if (move.dy != 0) {
+            ss << "UD"[move.dy > 0];
+            if (abs(move.dy) > 1) ss << abs(move.dy);
+        }
+        return ss.str();
+    }
 
     static std::string moves_str(std::vector<sliding_puzzle::move>& moves) {
         std::stringstream ss;
         int nmoves = moves.size();
         for (int i = 0; i < nmoves; i++) {
-			ss << move_str(moves[i]);
+            ss << move_str(moves[i]);
             if (i < nmoves - 1) ss << ",";
         }
         return ss.str();
@@ -262,7 +262,7 @@ private:
     std::vector<move>   _target;
     int                 _rows, _cols;
 
-	friend class sliding_puzzle_svg;
+    friend class sliding_puzzle_svg;
 };
 
 #endif // __SLIDING_PUZZLE__
